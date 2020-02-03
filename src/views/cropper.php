@@ -38,9 +38,9 @@ switch ($jsOptions['pos']) {
 $cropWidth = $cropperOptions['width'];
 $cropHeight = $cropperOptions['height'];
 $aspectRatio = $cropWidth / $cropHeight;
-$browseLabel = $cropperOptions['icons']['browse'] . ' ' . Yii::t('cropper', 'Browse');
-$cropLabel = $cropperOptions['icons']['crop'] . ' ' . Yii::t('cropper', 'Crop');
-$closeLabel = $cropperOptions['icons']['close'] . ' ' . Yii::t('cropper', 'Crop') . ' & ' . Yii::t('cropper', 'Close');
+$browseLabel = $cropperOptions['icons']['browse'] . ' ' . Yii::t('cropper', 'Выбрать');
+$cropLabel = $cropperOptions['icons']['crop'] . ' ' . Yii::t('cropper', 'Обрезать');
+$closeLabel = $cropperOptions['icons']['close'] . ' ' . Yii::t('cropper', 'Обрезать') . ' & ' . Yii::t('cropper', 'Закрыть');
 if ($label !== false) $browseLabel = $cropperOptions['icons']['browse'] . ' ' . $label;
 
 // button template
