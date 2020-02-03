@@ -7,10 +7,10 @@
 /** @var $unique string */
 /** @var $cropperOptions [] */
 
-$modalLabel = Yii::t('cropper', 'Image Crop Editor');
-$browseLabel = $cropperOptions['icons']['browse'] . ' ' . Yii::t('cropper', 'Browse');
-$cropLabel = $cropperOptions['icons']['crop'] . ' ' . Yii::t('cropper', 'Crop');
-$closeLabel = $cropperOptions['icons']['close'] . ' ' . Yii::t('cropper', 'Crop') . ' & ' . Yii::t('cropper', 'Close');
+$modalLabel = Yii::t('cropper', 'Редактор изображений');
+$browseLabel = $cropperOptions['icons']['browse'] . ' ' . Yii::t('cropper', 'Выбрать');
+$cropLabel = $cropperOptions['icons']['crop'] . ' ' . Yii::t('cropper', 'Обрезать');
+$closeLabel = $cropperOptions['icons']['close'] . ' ' . Yii::t('cropper', 'Обрезать') . ' & ' . Yii::t('cropper', 'Закрыть');
 
 $cropWidth = $cropperOptions['width'];
 $cropHeight = $cropperOptions['height'];
@@ -30,18 +30,18 @@ echo '<div class="modal fade" tabindex="-1" role="dialog" id="cropper-modal-'. $
                     .'<div class="col-xs-12 text-left">'
                         .'<div class="alert alert-warning alert-dismissible">'
                             .'<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>'
-                            .Yii::t('cropper', 'Double click: toggle between "move image" or "redraw area".')
+                            .Yii::t('cropper', 'Двойной щелчок: переключение между «перемещением изображения» или «областью перерисовки».".')
                         .'</div>'
                     .'</div>'
                     .'<div class="col-sm-3">'
                         .'<div class="input-group input-group-sm width-warning">'
-                            .'<label class="input-group-addon" for="dataWidth-'. $unique .'">'.Yii::t('cropper', 'Width').' ('. $cropWidth .'px)</label>'
+                            .'<label class="input-group-addon" for="dataWidth-'. $unique .'">'.Yii::t('cropper', 'Ширина').' ('. $cropWidth .'px)</label>'
                             .'<input type="text" class="form-control" id="dataWidth-'. $unique .'" placeholder="width"><span class="input-group-addon">px</span>'
                         .'</div>'
                     .'</div>'
                     .'<div class="col-sm-3">'
                         .'<div class="input-group input-group-sm height-warning">'
-                            .'<label class="input-group-addon" for="dataHeight-'. $unique .'">'.Yii::t('cropper', 'Height') .' ('. $cropHeight .'px)</label>'
+                            .'<label class="input-group-addon" for="dataHeight-'. $unique .'">'.Yii::t('cropper', 'Высота') .' ('. $cropHeight .'px)</label>'
                             .'<input type="text" class="form-control" id="dataHeight-'. $unique .'" placeholder="height"><span class="input-group-addon">px</span>'
                         .'</div>'
                     .'</div>'
@@ -60,7 +60,7 @@ echo '<div class="modal fade" tabindex="-1" role="dialog" id="cropper-modal-'. $
                 .'</div>'
                 .'<div class="pull-left">'
                     .'<span class="btn btn-primary btn-file">'. $browseLabel
-                        .'<input type="file" id="cropper-input-'. $unique .'" title="'. Yii::t('cropper', 'Browse') .'" accept="image/*">'
+                        .'<input type="file" id="cropper-input-'. $unique .'" title="'. Yii::t('cropper', 'Выбрать') .'" accept="image/*">'
                     .'</span>&nbsp;'
                     .'<div class="btn-group">'
                         .'<button type="button" class="btn btn-primary zoom-in">'.$cropperOptions['icons']['zoom-in'].'</span></button>'
