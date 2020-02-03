@@ -1,5 +1,5 @@
 {
-  "name": "bilginnet/yii2-cropper",
+  "name": "muzic98/yii2-cropper",
   "description": "Yii2 Bootstrap Cropper Input Widget",
   "type": "yii2-extension",
   "keywords": ["yii2","extension","cropper","widget"],
@@ -9,6 +9,10 @@
       "name": "Ercan Bilgin",
       "email": "bilginnet@gmail.com",
       "homepage": "https://github.com/bilginnet?tab=repositories"
+    },
+    {
+      "name": "Oleg Covalciuc",
+      "email": "muzic98@list.ru"
     }
   ],
   "minimum-stability": "dev",
