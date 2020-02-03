@@ -224,7 +224,7 @@ $this->registerJs(<<<JS
     
     var cropper_options_$uniqueId = {
         aspectRatio: $aspectRatio,
-        viewMode: 2,            
+        viewMode: 0,            
         autoCropArea: 0.98,
         responsive: false,
         crop: function (e) {
